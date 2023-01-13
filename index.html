@@ -28,6 +28,12 @@
   <link rel="stylesheet" href="./css/main.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- SWIPER -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
   <script defer src="./js/main.js"></script>
 </head>
 <body>  
@@ -405,7 +411,22 @@
         
         <div class="inner__left">
           <h2>공지사항</h2>
-          <div class="swiper-container"></div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">민제는 카라멜 마끼아또</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">야남이는 아이스 아메리카노</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">야만이는 딸기라떼</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">야욱이는 얼그레이</a>
+              </div>
+            </div>
+          </div>
           <a href="javascript:void(0)" class="notice-line__more">
             <div class="material-icons">add_circle</div>
           </a>

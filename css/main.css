@@ -327,7 +327,7 @@ header .badges .badge{
   font-weight: 700;
   margin-right: 20px;
 }
-.notice .notice-line .inner__left .swiper-container {
+.notice .notice-line .inner__left .swiper {
   height: 62px;
   background-color: orange;
   flex-grow: 1;
