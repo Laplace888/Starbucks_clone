@@ -509,7 +509,6 @@ header .badges .badge{
 }
 .youtube .youtube__area {
   width: 1920px;
-  background-color: royalblue;
   position: absolute;
   left: 50%;
   margin-left: calc(1920px / -2);
@@ -523,7 +522,7 @@ header .badges .badge{
   height: 0;
   padding-top: 56.25%; /* 16:9 비율 */
 }
-.youtube .youtube__cover {
+/* .youtube .youtube__cover {
   background-image: url("../images/video_cover_pattern.png");
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -531,7 +530,7 @@ header .badges .badge{
   left: 0;
   width: 100%;
   height: 100%;
-}
+} */
 #player {
   width: 100%;
   height: 100%;
@@ -678,4 +677,48 @@ header .badges .badge{
   left: 0;
   right: 0;
   margin: auto;
+}
+
+
+/* FIND-STORE */
+.find-store {
+  background-image: url("../images/find_store_bg.jpg");
+}
+.find-store .inner {
+  height: 400px;
+}
+.find-store .texture1 {
+  position: absolute;
+  top: 0;
+  left: 400px;
+}
+.find-store .texture2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.find-store .picture {
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+  position: absolute;
+
+}
+.find-store .picture1 {
+  top: -60px;
+  left: 0;
+}
+.find-store .picture2 {
+  top: 150px;
+  left: 250px;
+}
+.find-store .text-group {
+  position: absolute;
+  top: 120px;
+  left: 550px;
+}
+.find-store .text-group .title {
+  margin-bottom: 20px;
+}
+.find-store .text-group .description {
+  margin-bottom: 20px;
 }
