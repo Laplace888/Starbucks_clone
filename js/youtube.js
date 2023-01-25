@@ -19,7 +19,7 @@
           events: {
             onReady: function (event) {
               event.target.mute() // 음소거
-            }
+            } 
           }
         });
       }
