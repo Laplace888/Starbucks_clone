@@ -10,16 +10,16 @@
       //    after the API code downloads.
       function onYouTubeIframeAPIReady() {
         new YT.Player('player', {
-          videoId: 'BcbmFxbdsJ0', // 최초 재생할 유튜브 영상 ID
+          videoId: '6WZ67f9M3RE', // 최초 재생할 유튜브 영상 ID
           playerVars: {
             autoplay: true, // 자동 재생 유무
             loop: true, // 반복 재생 유무
-            playlist: 'BcbmFxbdsJ0' // 반복 재생할 유튜브 영상 ID 목록
-          },
-          events: {
-            onReady: function (event) {
-              event.target.mute() // 음소거
-            } 
+            playlist: '6WZ67f9M3RE' // 반복 재생할 유튜브 영상 ID 목록
           }
+          // events: {
+          //   onReady: function (event) {
+          //     event.target.mute() // 음소거
+          //   } 
+          // }
         });
       }
